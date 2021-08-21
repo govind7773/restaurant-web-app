@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/footer-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <title>myfoodshop</title>
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/client.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" media="screen and (max-width:1054px)" href="css/responsive.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo4.jpg" alt="">
+        </div>
+        <div id="hamburger" onclick="nav_list()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav01">
+
+            <li class="item"><a href="index.html" id="home1">HOME</a></li>
+            <li class="item"><a href="#service" id="service1">SERVICES</a></li>
+            <li class="item" id="about1"><a href="#aboutus">ABOUT US</a></li>
+            <li class="item" id="contact1"><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div id="navlist" style=" display: none">
+
+            <ul>
+                <li class="item"><a href="index.html" id="home1">HOME</a></li>
+                <li class="item"><a href="#service" id="service1">SERVICES</a></li>
+                <li class="item" id="about1"><a href="#aboutus">ABOUT US</a></li>
+                <li class="item" id="contact1"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="login-btn" onclick="order()">
+            <button id="btn01" onclick="func()">
+                login
+            </button>
+        </div>
+    </nav>
+    <section id="home">
+        <div id="home-left">
+            <h1 id="welcome01">
+                hungrry?
+            </h1>
+            <h1 id="welcome02">
+                welcome to myfood
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolores ratione quibusdam eligendi.
+                Nostrum
+                architecto, et modi iste.
+            </p>
+            <button class="btn" onclick="order()">order now </button>
+        </div>
+        <div id="home-right"><img src="img/footer-logo.png" alt=""></div>
+
+    </section>
+
+    <section class="menu" id="resto-menu">
+        <h1><b>Restaurant menu</b> </h1>
+        <p>we provides delicious food</p>>
+        <div class="menucards">
+            <div class="menucard" data-aos="fade-right">
+                <img src="img/f1.jpeg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+            <div class="menucard" data-aos="flip-left">
+                <img src="img/f2.jpg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+            <div class="menucard" data-aos="fade-left">
+                <img src="img/f3.jpg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+            <div class="menucard" data-aos="fade-right">
+                <img src="img/f4.jpg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+            <div class="menucard" id="menu-last1" data-aos="flip-left">
+                <img src="img/f5.jpg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+            <div class="menucard" id="menu-last2" data-aos="fade-left">
+                <img src="img/f6.jpg" alt="">
+                <h3>delicious food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis voluptates voluptate.</p>
+                <button class="menu-button">order</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="aboutus">
+        <h1 class="center"> Myfoodshop </h1>
+        <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, asperiores.</p>
+        <p class="center">we are always care about your health</p>
+        <div id="aboutus-box">
+            <div id="aboutus-citys">
+                <h1>we deliver</h1>
+                <hr>
+                <ul>
+                    <li>Mumbai</li>
+                    <li> delhi</li>
+                    <li>banglore</li>
+                    <li>jaipur</li>
+                    <li>kota </li>
+                    <li>jodhpur</li>
+                    <li>jhalawar</li>
+                    <li>pune </li>
+                    <li>kanpur</li>
+                    <li>bhopal</li>
+                    <li>goa</li>
+                    <li>more..</li>
+                </ul>
+            </div>
+            <div id="aboutus02">
+                <div class="aboutus-facilities">
+                    <img src="img/customer-care.jpg" alt="">
+                    <h2>customer care</h2>
+                    <p>we provides 24/7 customer support</p>
+                </div>
+                <div class="aboutus-facilities">
+                    <img src="img/kitchen.png" alt="">
+                    <h2>cloud kitchen</h2>
+                    <p>we provides cloud kitchen</p>
+
+                </div>
+                <div class="aboutus-facilities">
+                    <img src="img/buisness.png" alt="">
+                    <h2>buisness</h2>
+                    <p>a large area buisness</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1 class="h-primary center"> our services </h1>
+    <section id="service">
+
+        <div class="items" data-aos="fade-right">
+            <img src="img/logo1.jpg" alt="">
+            <h2 class="h-secondary center"> fresh food </h2>
+            <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum reiciendis,
+                explicabo ipsa in tempore. Ipsa ratione minima in temporibus debitis cupiditate dignissimos?Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Optio, doloremque.</p>
+        </div>
+        <div class="items" data-aos="fade-right">
+            <img src="img/logo2.jpg" alt="">
+            <h2 class="h-secondary center"> good cleaness </h2>
+            <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum reiciendis,
+                explicabo ipsa in tempore. Ipsa ratione minima in temporibus debitis cupiditate dignissimos?Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Optio, doloremque.</p>
+        </div>
+        <div class="items" data-aos="fade-right">
+            <img src="img/logo3.jpg" alt="">
+            <h2 class="h-secondary center"> fast delivary </h2>
+            <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum reiciendis,
+                explicabo ipsa in tempore. Ipsa ratione minima in temporibus debitis cupiditate dignissimos?Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Optio, doloremque.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="restauant01">
+        <div id="restaurant01-div01">
+            <h1>restaurant in your hand</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum earum excepturi labore!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laudantium.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h2>press order now!</h2>
+        </div>
+    </section>
+    <section id="client-container">
+        <h1 class=" center"> collobration with
+        </h1>
+        <div class="client-box">
+            <div class="client">
+                <img src="img/clientlogo1.jpg" alt="">
+            </div>
+            <div class="client">
+                <img src="img/clientlogo2.png" alt="">
+            </div>
+            <div class="client">
+                <img src="img/google.png" alt="">
+            </div>
+            <div class="client">
+                <img src="img/wipro.png" alt="">
+            </div>
+            <div class="client">
+                <img src="img/clientlogo1.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+
+        <div id="contact-box">
+            <h1 class="h-primary center">Contact Us</h1>
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="Name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="address">address: </label>
+                    <textarea name="address" id="message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="submit">submit</label> -->
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3>near city mall,jhalawar</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>contact us on +918441986654</p>
+            <p>govindsingh7773jwr@gmail.com</p>
+        </div>
+    </section>
+    <footer id="last">
+        <div id="foot">
+            <a href="#"><img src="img/instagram.jpg" alt=""></a>
+            <a href="#"><img src="img/fb.png" alt=""></a>
+            <a href="#"><img src="img/linkedin logo.png" alt=""></a>
+        </div>
+        <img src="img/footer-logo.png" id="footer-logo" alt="">
+        <p> copyright © 2021 myfoodshop </p>
+        <p> +91 8441986654</p>
+
+
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        function nav_list() {
+            let list_nav = document.getElementById('navlist');
+            if (list_nav.style.display == "none") {
+                list_nav.style.display = "block";
+            } else {
+                list_nav.style.display = "none";
+            }
+        }
+        function func() {
+            location.href = "#contact";
+        }
+        function order() {
+            location.href = "#resto-menu";
+        }
+
+        AOS.init({
+            offset: 200,
+            duration: 1000
+        });
+
+    </script>
+</body>
+
+</html>

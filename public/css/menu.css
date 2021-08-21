@@ -1,0 +1,77 @@
+.menu{
+    width: 100%;
+    height: 760px;
+}
+.menu::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    background:linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../img/menubg.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+.menucards{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.menucard{
+    width: 300px;
+    height: 300px;
+    margin: 12px 30px;
+    backdrop-filter: blur(7px);
+    box-shadow: 2px 2px 5px red, 2px 2px 5px red;
+}
+.menucard:hover{
+    cursor:pointer;
+    backdrop-filter: blur(0px);
+
+}
+.menu h1{
+    font-family: 'Recursive', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 53, 53);
+    text-align: center;
+}
+.menu p{
+    text-align: center;
+    font-family: 'Recursive', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+.menucard img{
+    width: 218px;
+    display: block;
+    border-radius: 50%;
+    height: 160px;
+    margin: auto;
+}
+.menucard h3{
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+.menucard p{
+    color: white;
+    font-size: 0.9rem;
+}
+.menu-button{
+    display: block;
+    width: 73px;
+    margin: auto;
+    font-size: 1.2rem;
+    border-radius: 14px;
+    color: wheat;
+    margin-top: 12px;
+    background: linear-gradient(45deg, #ff5514, transparent);
+}
+.menu-button:hover{
+    cursor:pointer;
+    background: linear-gradient(45deg, #db7a54, transparent);
+}

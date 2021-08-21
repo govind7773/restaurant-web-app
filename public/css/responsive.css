@@ -1,0 +1,217 @@
+#service {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 12px; */
+    /* background-color: gray; */
+
+}
+#nav01{
+    display: none;
+}
+#service .items{
+    margin: 19px 20px;
+}
+#service .items img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
+}
+/* navbar*/
+#navbar {
+   flex-direction: column;
+    position:sticky;
+
+}
+
+#logo img {
+    height: 42px;
+     margin:0px;
+    border-radius: 38px;
+}
+#logo {
+    /* margin: 2px 10px; */
+    margin: 0px auto;
+}
+
+
+
+#navabr::before{
+    height: 86%;
+}
+#home h1{
+    font-size: 1.2rem;
+}
+
+#footer-logo {
+    height: 60px;
+    left: 0px;
+}
+#home {
+    height: 332px;
+}
+
+#home p {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 0.9rem;
+}
+.btn {
+    margin: 11px auto;
+    font-size: 0.9rem;
+}
+.client-box{
+    flex-wrap: wrap;
+}
+.client img{
+    max-width: 60px;
+        border-radius: 15px;
+}
+#about{
+    flex-direction: column;
+    
+}
+#aboutus{
+  width: 360px;
+}
+#aboutus-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#aboutus-citys{
+  display: none;
+}
+.aboutus-facilities img {
+    height: 60px;
+    width: 59px;
+    border-radius: 40px;
+    margin: 0px;
+}
+
+
+#aboutus p {
+    font-size: 0.6rem;
+}
+.aboutus-facilities h2 {
+    font-size: 0.9rem;
+}
+#aboutus02 {
+    height: 231px;
+    width: 327px;
+    margin-top: 57px;
+}
+.aboutus-facilities {
+    width: 40%;
+    margin: 14px;
+}
+#contact-box button {
+    width: 27%;
+}
+#home-right img {
+    width: 80px;
+}
+
+#home-left {
+    width: 60%;
+
+}
+#home p {
+ 
+    text-align: left;
+    font-size: 0.8rem;
+}
+.contact-right {
+    display: none;
+  
+}
+.h-primary{
+    font-size: 1.5rem;
+}
+#service .items {
+    width: 80%;
+}
+/* hangburger  */
+#logo{
+    display: none;
+}
+
+#nav01{
+    display: none;
+}
+#btn01 {
+    top: 6px;
+    right: 4px;
+    font-size: 0.9rem;
+    padding: 3px 13px;
+    border-radius: 13px;
+}
+#hamburger div{
+   width: 20px;
+   border: 2px solid rgb(255, 254, 254);
+   padding: 1px;
+   border-radius: 5px;
+    margin: 2px;
+}
+#hamburger:hover{
+        cursor:pointer;
+}
+#navlist{
+   
+        width: 300px;
+        position: absolute;
+        top: 28px;
+    
+}
+#navlist ul li {
+    width: 40%;
+    padding: 8px 0px;
+    font-size: 0.8rem;
+    border: 2px solid #766e6e;
+    backdrop-filter: blur(10px);
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 41px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+.menucard img {
+    width: 121px;
+    height: 113px;
+}
+.menucard {
+    width: 175px;
+    height: 250px;
+    margin: 12px 5px;
+}
+.menucard h3{
+    font-size: 0.9rem;
+    margin-bottom:10px;
+}
+.menucard p{
+    font-size: 0.7rem;
+}
+.menu-button{
+    font-size: 0.9rem;
+    width: 70px;
+}
+.menu h1{
+    font-size: 1.5rem;
+}
+.menu p{
+    font-size: 0.8rem;
+}
+#menu-last1{
+    display: none;
+}
+#menu-last2{
+    display: none;
+}
